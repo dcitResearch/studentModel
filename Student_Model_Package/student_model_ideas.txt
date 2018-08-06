@@ -1,0 +1,123 @@
+This python module models the students in the system
+
+All data to be stored and transmitted via JSON [because its faster, BUT we will have to parse and convert to XML for Dr P's research later on]
+
+Encoding and Decoding Python Objects: https://realpython.com/python-json/
+
+OR WITH XML (requires python 2.7):
+https://github.com/dmw/pyxser
+
+Event Scheduling:
+https://docs.python.org/3/library/sched.html
+
+Determine whether will use datetime or time
+    to parse datetime use .isoformat()
+
+Other links to manage python:
+https://conda.io/docs/user-guide/tasks/manage-environments.html#
+https://pip.pypa.io/en/stable/installing/
+
+################################################################################
+
+There are __ classes involved:
+    * Course
+    * Attendance
+    * Person
+        * Student
+        * Lecturer [tentative]
+
+
+Each Course object has:
+    * code [string]
+    * name [string]
+    * credits [int]
+    * times [Collection of date/time] (Groupings for Year 1's to be implemented)
+    * downloaded content {
+        * Lecture Slides [Array of string, data/time]
+        * Labs{ string, date time
+            * Question Paper
+            * Solution Paper
+        }
+    }
+    * messages [Array of boolean]
+    * grades{
+        * Assignments [Array] {
+            * title
+            * time_downloaded
+            * due date
+            * time submitted
+            * score
+        }
+        * Courseworks [Array] {
+            * present [Boolean]
+            * score [Float]
+        }
+        * Final [float]
+    }
+
+
+
+Each Attendance Object has:
+    * id [string]
+    * course code [string]
+    * date/time and location formatted example: 2012-04-23T18:25:43:511Z
+    * attended [boolean]
+
+
+
+Each Person object has:
+    * id [string]
+    * first name [string]
+    * last name [string]
+    * signature [data type TBD]
+    * university email [string]
+    * personal email [string]
+
+
+Each Student object has:
+    * Inhertiance from Person
+    * courses [collection of objects]
+	* Attendance Objects [Collection/Array]{
+
+    }
+
+
+EDIT: Just using a single Student_Model class now because python doesn't natively support serializing classes to json
+
+
+
+
+################################################################################
+
+
+Question to the grp
+
+Hey guys
+I'd like your opinion on something
+
+in designing the studentModel.py i can think of 2 options:
+
+OPTION 1 design:
+
+> The Student Class
+    > [id, name, etc, etc]
+    > Collection of Course Objects inside the student class
+        > Collection of Attendance Objects [date/time of the lecture and present/absent] inside each course object
+    (no linking required because one collection is already nested inside the other)
+
+OR
+
+
+OPTION 2 design: (we chose this one)
+
+> The Student Class
+    > [id, name, etc, etc]
+    > Collection of Attendance Objects inside the student class BUT separate from the collections of course Objects
+    > Collection of Course Objects inside the student class BUT separate from the collection of Attendance objects
+    (the two collections can be linked via some unique identifier)
+
+
+Let me know if you understand what i mean
+
+
+i think either way would work but im wondering if one way is better/worse/would cause problems later down the line

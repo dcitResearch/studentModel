@@ -1,0 +1,8 @@
+{
+    "first_name": "Jimmel",
+    "last_name": "Something",
+    "signature" : null,
+    "university_email": "jimmel.something@my.uwi.edu",
+    "personal_email": "jimmelsomething@gmail.com",
+    "courses": ["COMP1601", "COMP1602", "COMP1603"]
+}

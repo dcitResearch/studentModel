@@ -1,0 +1,30 @@
+This directory will accept data (JSON files) from the my_elearning_module.
+
+See the "student_model_package\student_model_ideas.txt" file for full description of the student class
+
+The files in this directory consist of :
+
+    * A Single JSON file (naming syntax: "courses.json") will contain a course listing of all courses with their:
+        * code
+        * name
+        * lecturer(s) and TA(s)
+            * each lecturer is a Lecturer Object [see ideas.txt]
+        * content from my_elearning to be downloaded
+        * coursework information
+            * dates and times [work on timing]
+
+    AND
+
+    * One JSON File per student (naming syntax: "816000772.json") consisting of:
+        * id [string]
+        * first name [string]
+        * last name [string]
+        * signature [data type TBD] ???
+        * university email [string]
+        * personal email [string]
+        * List of Courses currently enrolled in for the semester
+
+
+    AND
+
+    * One JSON File per lecturer (naming syntax: "816000772.json") consisting of:

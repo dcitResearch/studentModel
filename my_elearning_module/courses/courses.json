@@ -1,0 +1,68 @@
+{
+    "COMP1601": {
+        "name": "Computer Programming 1",
+        "credits": 3,
+        "times": [
+            {
+                "day": "Monday",
+                "time": "0800",
+                "location": "FST113"
+            },
+
+            {
+                "day": "Wednesday",
+                "time": "1200",
+                "location": "FST114"
+            },
+            {
+                "day": "Friday",
+                "time": "0800",
+                "location": "FST113"
+            }
+        ]
+    },
+    "COMP1602": {
+        "name": "Computer Programming 2",
+        "credits": 3,
+        "times": [
+            {
+                "day": "Tuesday",
+                "time": "0800",
+                "location": "FSTC1"
+            },
+
+            {
+                "day": "Thursday",
+                "time": "1600",
+                "location": "FST114"
+            },
+            {
+                "day": "Monday",
+                "time": "0800",
+                "location": "FST113"
+            }
+        ]
+    },
+    "COMP1603": {
+        "name": "Computer Programming 3",
+        "credits": 3,
+        "times": [
+            {
+                "day": "Tuesday",
+                "time": "1100",
+                "location": "FSTC2"
+            },
+
+            {
+                "day": "Thursday",
+                "time": "800",
+                "location": "FSTC3"
+            },
+            {
+                "day": "Friday",
+                "time": "1500",
+                "location": "FST113"
+            }
+        ]
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "COMP1601": {
+        "name": "Computer Programming 1",
+        "credits": 3,
+        "times": [
+            {
+                "day": "Monday",
+                "time": "0800",
+                "location": "FST113"
+            },
+
+            {
+                "day": "Wednesday",
+                "time": "1200",
+                "location": "FST114"
+            },
+            {
+                "day": "Friday",
+                "time": "0800",
+                "location": "FST113"
+            }
+        ],
+        "downloadable_content": {
+            "lecture_slides": [
+                {
+                    "name": "Input and Output",
+                    "downloaded": true
+                },
+                {
+                    "name": "Selection Logic",
+                    "downloaded": true
+                },
+                {
+                    "name": "Repetion Logic",
+                    "downloaded": false
+                }
+            ],
+            "tutorials":[
+                {
+                    "name": "Tutorial 1",
+                    "downloaded": true
+                },
+                {
+                    "name": "Tutorial 2",
+                    "downloaded": false
+                },
+                {
+                    "name": "Tutorial 3",
+                    "downloaded": true
+                }
+            ]
+        },
+        "messages": [
+            {
+                "subject": "Greetings Students",
+                "read": false
+            }
+        ],
+        "grades": {
+            "assignments": [
+                {
+                    "title": "Assignment 1",
+                    "time_downloaded": "2018-07-30 22:46:30.109761",
+                    "due_date":  "2018-08-07 22:46:30.109761",
+                    "time_submitted":  "2018-07-31 22:46:30.109761",
+                    "score": 75
+                },
+                {
+                    "title": "Assignment 2",
+                    "time_downloaded": "2018-07-30 22:46:30.109761",
+                    "due_date":  "2018-08-07 22:46:30.109761",
+                    "time_submitted":  "2018-07-31 22:46:30.109761",
+                    "score": 100
+                }
+            ],
+            "coursework_exams": [
+                {
+                    "date": "2018-08-15 22:46:30.109761",
+                    "present": true,
+                    "score": 80
+                },
+                {
+                    "date": "2018-08-30 22:46:30.109761",
+                    "present": true,
+                    "score": 50
+                }
+            ],
+            "final": 80
+        }
+    },
+    "COMP1602": {
+        "name": "Computer Programming 2",
+        "credits": 3,
+        "times": [
+            {
+                "day": "Tuesday",
+                "time": "0800",
+                "location": "FSTC1"
+            },
+
+            {
+                "day": "Thursday",
+                "time": "1600",
+                "location": "FST114"
+            },
+            {
+                "day": "Monday",
+                "time": "0800",
+                "location": "FST113"
+            }
+        ],
+        "downloadable_content": {
+            "lecture_slides": [
+                {
+                    "name": "Structs",
+                    "downloaded": false
+                },
+                {
+                    "name": "Selection Logic",
+                    "downloaded": false
+                },
+                {
+                    "name": "Repetion Logic",
+                    "downloaded": false
+                }
+            ],
+            "tutorials":[
+                {
+                    "name": "Tutorial 1",
+                    "downloaded": false
+                },
+                {
+                    "name": "Tutorial 2",
+                    "downloaded": false
+                },
+                {
+                    "name": "Tutorial 3",
+                    "downloaded": false
+                }
+            ]
+        },
+        "messages": [
+            {
+                "subject": "Greetings Students",
+                "read": false
+            }
+        ],
+        "grades": {
+            "assignments": [
+                {
+                    "title": "Assignment 1",
+                    "time_downloaded": "2018-07-30 22:46:30.109761",
+                    "due_date":  "2018-08-07 22:46:30.109761",
+                    "time_submitted":  "2018-07-31 22:46:30.109761",
+                    "score": 75
+                },
+                {
+                    "title": "Assignment 2",
+                    "time_downloaded": "2018-07-30 22:46:30.109761",
+                    "due_date":  "2018-08-07 22:46:30.109761",
+                    "time_submitted":  "2018-07-31 22:46:30.109761",
+                    "score": 100
+                }
+            ],
+            "coursework_exams": [
+                {
+                    "date": "2018-08-15 22:46:30.109761",
+                    "present": false,
+                    "score": 80
+                },
+                {
+                    "date": "2018-08-30 22:46:30.109761",
+                    "present": false,
+                    "score": 50
+                }
+            ],
+            "final": 80
+        }
+    }
+}
