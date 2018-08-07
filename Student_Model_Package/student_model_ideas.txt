@@ -10,11 +10,12 @@ https://github.com/dmw/pyxser
 Event Scheduling:
 https://docs.python.org/3/library/sched.html
 
-Determine whether will use datetime or time
+Determine whether will use datetime or time ticks
     to parse datetime use .isoformat()
+    * NB the moodle rest return uses ticks so will most likely convert to datetime
 
 Other links to manage python:
-https://conda.io/docs/user-guide/tasks/manage-environments.html#
+https://conda.io/docs/user-guide/tasks/manage-environments.html
 https://pip.pypa.io/en/stable/installing/
 
 ################################################################################
@@ -108,7 +109,7 @@ OPTION 1 design:
 OR
 
 
-OPTION 2 design: (we chose this one)
+OPTION 2 design: (we chose this one for now [apparent less coupling])
 
 > The Student Class
     > [id, name, etc, etc]

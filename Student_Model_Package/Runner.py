@@ -1,5 +1,6 @@
 from StudentModel import *
 
+os.system('cls')
 
 pp = pprint.PrettyPrinter(indent=4)
 

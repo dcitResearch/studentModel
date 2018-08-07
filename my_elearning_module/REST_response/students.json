@@ -1,0 +1,96 @@
+[{
+	"id": 2,
+	"username": "admin",
+	"firstname": "Admin",
+	"lastname": "User",
+	"fullname": "Admin User",
+	"email": "matthew.i.forbes@gmail.com",
+	"department": "",
+	"firstaccess": 1531794699,
+	"lastaccess": 1532808663,
+	"description": "",
+	"descriptionformat": 1,
+	"profileimageurlsmall": "http:\/\/localhost\/moodle\/theme\/image.php\/boost\/core\/1532056133\/u\/f2",
+	"profileimageurl": "http:\/\/localhost\/moodle\/theme\/image.php\/boost\/core\/1532056133\/u\/f1",
+	"groups": [],
+	"roles": [{
+		"roleid": 5,
+		"name": "",
+		"shortname": "student",
+		"sortorder": 0
+	}],
+	"preferences": [{
+		"name": "core_message_migrate_data",
+		"value": "1"
+	}, {
+		"name": "auth_manual_passwordupdatetime",
+		"value": "1531795563"
+	}, {
+		"name": "email_bounce_count",
+		"value": "1"
+	}, {
+		"name": "email_send_count",
+		"value": "1"
+	}, {
+		"name": "drawer-open-nav",
+		"value": "true"
+	}, {
+		"name": "userselector_preserveselected",
+		"value": "0"
+	}, {
+		"name": "userselector_autoselectunique",
+		"value": "0"
+	}, {
+		"name": "userselector_searchanywhere",
+		"value": "0"
+	}, {
+		"name": "block_myoverview_last_tab",
+		"value": "courses"
+	}, {
+		"name": "tool_usertours_tour_completion_time_1",
+		"value": "1532446872"
+	}, {
+		"name": "ifirst",
+		"value": ""
+	}, {
+		"name": "ilast",
+		"value": ""
+	}, {
+		"name": "tool_usertours_tour_completion_time_2",
+		"value": "1532446917"
+	}, {
+		"name": "_lastloaded",
+		"value": 1532808707
+	}],
+	"enrolledcourses": [{
+		"id": 2,
+		"fullname": "French",
+		"shortname": "F102"
+	}]
+}, {
+	"id": 3,
+	"username": "testuser",
+	"firstname": "Test",
+	"lastname": "User",
+	"fullname": "Test User",
+	"email": "test@test.com",
+	"department": "",
+	"firstaccess": 0,
+	"lastaccess": 0,
+	"description": "",
+	"descriptionformat": 1,
+	"profileimageurlsmall": "http:\/\/localhost\/moodle\/theme\/image.php\/boost\/core\/1532056133\/u\/f2",
+	"profileimageurl": "http:\/\/localhost\/moodle\/theme\/image.php\/boost\/core\/1532056133\/u\/f1",
+	"groups": [],
+	"roles": [{
+		"roleid": 5,
+		"name": "",
+		"shortname": "student",
+		"sortorder": 0
+	}],
+	"enrolledcourses": [{
+		"id": 2,
+		"fullname": "French",
+		"shortname": "F101"
+	}]
+}]
