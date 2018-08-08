@@ -18,6 +18,9 @@ Other links to manage python:
 https://conda.io/docs/user-guide/tasks/manage-environments.html
 https://pip.pypa.io/en/stable/installing/
 
+Consider using os.makedirs for making empty directories:
+https://stackoverflow.com/questions/273192/how-can-i-safely-create-a-nested-directory-in-python
+
 ################################################################################
 
 There are __ classes involved:

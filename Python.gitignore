@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Firebase_Admin_SDK
+student-model-firebase-adminsdk-cijqi-42c9322af0.json
+
 # google drive
 *.ini
 

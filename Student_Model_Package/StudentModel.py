@@ -39,6 +39,11 @@ class StudentModel:
             print("Courses read successfully\n\n")
 
 
+    # parses the .json REST_response file from my_elearning_module and creates the
+    def parse_REST_response(self):
+
+
+
     # initial version design where each student has his own directory in the 'students_directory'
     # traverses the subdirectories in 'students_directory' and reads individual student .json files to populate the __students dictionary
     # each student directory is named by the student's id number
