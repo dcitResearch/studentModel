@@ -83,7 +83,8 @@ Each Person object has:
     * id [string]
     * first name [string]
     * last name [string]
-    * signature [data type TBD]
+    * signatures [data type TBD]
+    * faces
     * university email [string]
     * personal email [string]
 

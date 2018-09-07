@@ -1,3 +1,5 @@
+# v1 uses local disk storage
+
 # imports
 import json         # for JSON :)
 import os           # for file listing in directory
